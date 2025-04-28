@@ -97,7 +97,7 @@ echo "Instalando Firefox"
 sudo apt install -y firefox
 
 # Instalação do GLPI
-read -p "Deseja rodar o GLPI agora? (s/n) " setupglpi
+read -p "Deseja instalar o GLPI agora? (s/n) " setupglpi
     if [[ "$setupglpi" =~ ^[sSyY] ]]; then
         # verifica a ultima versão do GPLI
         REPOGLPI="glpi-project/glpi-agent"
